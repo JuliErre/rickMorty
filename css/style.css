@@ -1,20 +1,15 @@
 body {
-
-    font-family: 'Poppins';
+    font-family: "Poppins";
     background-image: url("https://cutewallpaper.org/21/rick-morty-wallpaper/24-Rick-and-Morty-Portal-Wallpapers-WallpaperBoat.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     backdrop-filter: blur(3px);
-
 }
-
 
 .imgCart {
     border-radius: 150px;
 }
-
-
 
 h3 {
     text-align: center;
@@ -33,15 +28,12 @@ h3 {
 
     font-weight: 600;
     font-size: 20px;
-
-
 }
 
 .imgCart {
     align-self: center;
     justify-self: center;
     margin-bottom: 10px;
-
 }
 
 nav {
@@ -50,9 +42,7 @@ nav {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+   
 }
 
 nav h1 {
@@ -61,7 +51,10 @@ nav h1 {
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)
+    background-image: linear-gradient(to right,
+            #00d2ff 0%,
+            #3a7bd5 51%,
+            #00d2ff 100%);
 }
 
 .btn-grad {
@@ -75,7 +68,7 @@ nav h1 {
     border-width: 0px;
     border-radius: 10px;
     display: block;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 13px;
     font-weight: bold;
 }
@@ -91,7 +84,6 @@ nav h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .imgBox {
@@ -100,39 +92,34 @@ nav h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .title {
     max-width: 100%;
     width: 550px;
     height: auto;
-
 }
 
 .logo {
     width: 180px;
     height: auto;
-
 }
 
 .pickle {
     width: 180px;
     height: auto;
-
 }
 
-
-@media (min-width:1300px) {
-    .logo {
+@media (min-width: 1300px) {
+    .imgBox2 {
         margin-left: 200px;
     }
 
-    .pickle {
-        margin-right: 300px;
+    .imgBox3{
+        margin-right: 200px;
     }
 }
 
- p{
+p {
     font-size: 18px;
 }
